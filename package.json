@@ -1,0 +1,29 @@
+{
+  "name": "mobilecheckbox",
+  "description": "A simple pure CSS on/off toggle switch checkbox.",
+  "version": "0.1.0-pre",
+  "homepage": "https://github.com/boazsender/mobilecheckbox",
+  "author": {
+    "name": "Boaz Sender",
+    "email": "boaz@bocoup.com",
+    "url": "http://boazsender.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/boazsender/mobilecheckbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boazsender/mobilecheckbox/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/boazsender/mobilecheckbox/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.3.12",
+    "grunt-css": ">=0.2.1"
+  },
+  "keywords": []
+}
