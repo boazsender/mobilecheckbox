@@ -25,7 +25,7 @@ In your web page:
 ```
 
 ## Release History
-* v0.1.0-pre - 08/28/2012 - mobilecheckbox.css is pre release awaiting testing
+* v0.1.0-pre - 08/28/2012 - mobilecheckbox.css is pre release awaiting more mobile browser testing.
 
 ## License
 Copyright (c) 2012 Boaz Sender  
