@@ -7,7 +7,12 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <link rel="stylesheet" href="https://raw.github.com/boazsender/mobilecheckbox/master/dist/mobilecheckbox.min.css">
+    <style>
+      /*! mobilecheckbox - v0.1.0-pre - 2012-08-30
+      * https://github.com/boazsender/mobilecheckbox
+      * Copyright (c) 2012 Boaz Sender; Licensed MIT */
+      input[type=checkbox]{outline:none;width:58px;height:23px;font-size:11px;line-height:2;display:block;font-weight:bold;border-radius:3px;border:1px solid #B9B9B9;-webkit-appearance:none;background-image:-webkit-gradient( linear,left top,left bottom,color-stop(0,#E8E8E8),color-stop(0.5,#E8E8E8),color-stop(0.5,#FDFDFD),color-stop(1,#FDFDFD) );box-shadow:0 1px 2px #AFAFAF inset;color:#7F7F7F}input[type=checkbox]:checked{background-image:-webkit-gradient( linear,left top,left bottom,color-stop(0,#367EF8),color-stop(0.5,#367EF8),color-stop(0.5,#66A3F8),color-stop(1,#66A3F8) );box-shadow:0 1px 2px #1449A3 inset;color:#fff;text-shadow:0 -1px 1px #000;border:1px solid #99B9E8}input[type=checkbox]:before{content:'OFF';border-radius:3px;border-top:1px solid #F7F7F7;border-right:1px solid #999;border-bottom:1px solid #BABABA;border-left:1px solid #BDBDBD;background-image:-webkit-gradient( linear,left top,left bottom,color-stop(0,#D8D8D8),color-stop(1,#FBFBFB) );height:20px;width:22px;display:inline-block;text-indent:27px}input[type=checkbox]:checked:before{content:'ON';text-indent:-25px;margin-left:33px}
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -31,57 +36,55 @@
       <section>
         <h1>Mobilecheckbox</h1>
 
-<p>A simple CSS on/off toggle switch checkbox. Uses <code>before</code> and <code>:checked</code> psuedo selectors and the <code>content</code> property to make just a plain old simple <code>&lt;input type="checkbox"&gt;</code> look nice, provide greater affordance, and say "on" and "off". It looks like this:</p>
+        <p>A simple CSS on/off toggle switch checkbox. Uses <code>before</code> and <code>:checked</code> psuedo selectors and the <code>content</code> property to make just a plain old simple <code>&lt;input type="checkbox"&gt;</code> look nice, provide greater affordance, and say "on" and "off". It looks like this:</p>
 
-<p>
-<input type="checkbox">
-<input type="checkbox" checked>​
-</p>
+        <p>
+          <input type="checkbox">
+          <input type="checkbox" checked>​
+        </p>
 
-<h2>Getting Started</h2>
+        <h2>Getting Started</h2>
+        <p>Download the <a href="https://raw.github.com/boazsender/mobilecheckbox/master/dist/mobilecheckbox.min.css">production version</a> or the <a href="https://raw.github.com/boazsender/mobilecheckbox/master/dist/mobilecheckbox.css">development version</a>.</p>
+        <p>In your web page:</p>
 
-<p>Download the <a href="https://raw.github.com/boazsender/mobilecheckbox/master/dist/mobilecheckbox.min.css">production version</a> or the <a href="https://raw.github.com/boazsender/mobilecheckbox/master/dist/mobilecheckbox.css">development version</a>.</p>
-
-<p>In your web page:</p>
-
-<div class="highlight"><pre><span class="cp">&lt;!doctype&gt;</span>
+        <div class="highlight">
+<pre>
+<span class="cp">&lt;!doctype&gt;</span>
 <span class="nt">&lt;html&gt;</span>
-<span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"mobilecheckbox.css"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-<span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/body&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"mobilecheckbox.css"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</pre></div>
+</pre>
+        </div>
 
-<h2>Release History</h2>
+        <h2>Release History</h2>
 
-<ul>
-<li>v0.1.0-pre - 08/28/2012 - mobilecheckbox.css is pre release awaiting more mobile browser testing.</li>
-</ul><h2>License</h2>
+        <ul>
+          <li>v0.1.0-pre - 08/28/2012 - mobilecheckbox.css is pre release awaiting more mobile browser testing.</li>
+        </ul>
 
-<p>Copyright (c) 2012 Boaz Sender<br>
-Licensed under the MIT, GPL licenses.</p>
+        <h2>License</h2>
+        <p>Copyright (c) 2012 Boaz Sender<br>
+        Licensed under the MIT, GPL licenses.</p>
 
-<h2>Contributing</h2>
+        <h2>Contributing</h2>
+        <p>In lieu of a formal styleguide, take care to maintain the existing coding style. Lint your code using <a href="https://github.com/cowboy/grunt">grunt</a> and <a href="https://github.com/jzaefferer/grunt-css">grunt-css</a>.</p>
 
-<p>In lieu of a formal styleguide, take care to maintain the existing coding style. Lint your code using <a href="https://github.com/cowboy/grunt">grunt</a> and <a href="https://github.com/jzaefferer/grunt-css">grunt-css</a>.</p>
+        <h3>Important notes</h3>
+        <p>Please don't edit files in the <code>dist</code> subdirectory as they are generated via grunt. You'll find source code in the <code>src</code> subdirectory!</p>
 
-<h3>Important notes</h3>
+        <h3>Installing grunt</h3>
+        <p><em>This assumes you have <a href="http://nodejs.org/">node.js</a> and <a href="http://npmjs.org/">npm</a> installed already.</em></p>
 
-<p>Please don't edit files in the <code>dist</code> subdirectory as they are generated via grunt. You'll find source code in the <code>src</code> subdirectory!</p>
-
-<h3>Installing grunt</h3>
-
-<p><em>This assumes you have <a href="http://nodejs.org/">node.js</a> and <a href="http://npmjs.org/">npm</a> installed already.</em></p>
-
-<ol>
-<li>Test that grunt is installed globally by running <code>grunt --version</code> at the command-line.</li>
-<li>If grunt isn't installed globally, run <code>npm install -g grunt</code> to install the latest version. <em>You may need to run <code>sudo npm install -g grunt</code>.</em>
-</li>
-<li>From the root directory of this project, run <code>npm install</code> to install the project's dependencies.</li>
-</ol>
+        <ol>
+          <li>Test that grunt is installed globally by running <code>grunt --version</code> at the command-line.</li>
+          <li>If grunt isn't installed globally, run <code>npm install -g grunt</code> to install the latest version. <em>You may need to run <code>sudo npm install -g grunt</code>.</em></li>
+          <li>From the root directory of this project, run <code>npm install</code> to install the project's dependencies.</li>
+        </ol>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/boazsender">boazsender</a></p>
