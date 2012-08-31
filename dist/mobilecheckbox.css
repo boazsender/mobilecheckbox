@@ -1,8 +1,9 @@
-/*! mobilecheckbox - v0.1.0-pre - 2012-08-30
-* https://github.com/boazsender/mobilecheckbox
+/*! mobilecheckbox - v0.1.0-pre - 2012-08-31
+* http://boazsender.github.com/mobilecheckbox/
 * Copyright (c) 2012 Boaz Sender; Licensed MIT */
 
 input[type=checkbox] {
+  position: relative;
   outline: none;
   width: 58px;
   height: 23px;
