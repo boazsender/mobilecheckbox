@@ -7,6 +7,7 @@
  */
 
 input[type=checkbox] {
+  position: relative;
   outline: none;
   width: 58px;
   height: 23px;

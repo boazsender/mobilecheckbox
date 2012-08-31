@@ -4,6 +4,8 @@ A simple CSS on/off toggle switch checkbox. Uses `before` and `:checked` psuedo 
 
 ![example](http://gyazo.com/72b015ddcf249b2b2479cf0ad879081a.png?1346303159)
 
+_tested on android 3.1 and iOS5.1.1 mobile safari_
+
 ## Getting Started
 Download the [production version][min] or the [development version][max].
 
